@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista - Real Estate Investment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="scroll-arrows">
+        <div class="arrow up" onclick="scrollUp()">&#9650;</div>
+        <div class="arrow down" onclick="scrollDown()">&#9660;</div>
+    </div>
+    
+    
+    <header class="sticky-header">
+        <div class="logo">Vista</div>
+        <nav>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#investments">Investments</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero parallax">
+        <div class="hero-content">
+            <h1>Invest in the Future of <br> <strong style="color: rgb(199, 193, 193);">REAL ESTATE</strong></h1>
+            <p>Fund projects, track investments, and maximize returns.</p> <br> <br>
+            <a href="#investments" class="btn">Explore Investments</a>
+        </div>
+    </section>
+    
+    <section id="about" class="about parallax">
+        <h2>Why Choose Vista?</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon">🔒</div>
+                <h3>Secure Investments</h3>
+                <p>Our platform ensures high-end security, keeping your investments safe and protected.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📊</div>
+                <h3>Smart Analytics</h3>
+                <p>Get real-time data and AI-powered insights to make informed investment decisions.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🌎</div>
+                <h3>Global Opportunities</h3>
+                <p>Access a diverse range of real estate investments worldwide, maximizing your portfolio.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">👔</div>
+                <h3>Professional Management</h3>
+                <p>Work with industry experts who manage your assets for the best possible returns.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="investments" class="investments parallax">
+        <h2>Investment Opportunities</h2>
+        <p>Discover and invest in high-return real estate projects.</p>
+        <div class="investment-container">
+            <div class="investment-card">
+                <div class="investment-img" style="background-image: url('investment1.jpg');"></div>
+                <div class="investment-info">
+                    <h3>Luxury Apartments</h3>
+                    <p>ROI: 8% | Location: XYZ</p>
+                    <button class="btn">Invest Now</button>
+                </div>
+            </div>
+            <div class="investment-card">
+                <div class="investment-img" style="background-image: url('investment2.jpg');"></div>
+                <div class="investment-info">
+                    <h3>Beachfront Villas</h3>
+                    <p>ROI: 10% | Location: XYZ</p>
+                    <button class="btn">Invest Now</button>
+                </div>
+            </div>
+            <div class="investment-card">
+                <div class="investment-img" style="background-image: url('investment3.jpg');"></div>
+                <div class="investment-info">
+                    <h3>Skyscraper Offices</h3>
+                    <p>ROI: 12% | Location: XYZ</p>
+                    <button class="btn">Invest Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact parallax">
+        <h2>Contact Us</h2>
+        <p>Have questions? Our team is here to assist you.</p>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form> <br> <br>
+            <div class="contact-info">
+                <p><strong>Email:</strong> samarth.patil3101@gmail.com</p>
+                <p><strong>Phone:</strong> +91 8766794922</p>
+                <p><strong>Address:</strong> Pune, Maharashtra - 411001</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2025 Vista. All rights reserved.</p>
+    </footer>
+</body>
+</html>
