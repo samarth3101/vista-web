@@ -97,7 +97,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url('/assets/vistabg.webp') no-repeat center center/cover;
+    background: url('assets/vistabg.webp') no-repeat center center/cover;
     position: relative;
     overflow: hidden;
 }
