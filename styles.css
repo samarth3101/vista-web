@@ -4,7 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -118,6 +122,14 @@ body {
     font-size: 1.2rem;
     opacity: 0.9;
 }
+
+#mainnm{
+    font-family: "Bebas Neue", serif;
+    font-weight: 900;
+    font-style:italic;
+    font-size:larger;
+}
+
 
 .btn {
     background: #b589f7;
